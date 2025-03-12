@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Radhika 🎉</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="music-controls">
+        <button id="playBtn">▶</button>
+        <button id="pauseBtn">⏸</button>
+    </div>
+</div>
+    <audio id="musicPlayer" autoplay loop>
+        <source src="music/HAPPY BIRTHDAY INSTRUMENTAL - Benote.mp3" type="audio/mp3">
+    </audio>
+    
+    <!-- Gift Wrap Box with Animation -->
+    <div class="gift-box" id="giftBox">
+        <img src="img/4.webp" alt="Gift Box" class="gift-image">
+        <div class="gift-overlay">Click to Open!</div>
+    </div>
+    
+    <!-- Main Content (Hidden Initially) -->
+    <div class="container hidden" id="mainContent">
+        <h1 class="title animate-pop-in">Happy Birthday Radhika 🎂💖</h1>
+        
+        <div class="love-letter animate-fade-in">
+            <p>My Dearest Radhika,</p>
+            <p>Having you as my best friend is one of the greatest blessings in my life. You bring joy, laughter, and endless support, and I cherish every moment we share.</p>
+            <p>On this special day, I want you to know how much you mean to me. You are kind, strong, and absolutely amazing! Happy Birthday, my beautiful friend! 🎉</p>
+            <p>Forever your friend,</p>
+            <p>Your AKASH ❤️</p>
+        </div>
+        
+        <!-- Love Quotes with Dynamic Changes -->
+        <div class="quote animate-slide-in" id="quote">
+            "A best friend is like a four-leaf clover: hard to find and lucky to have."
+        </div>
+        
+        <!-- Photo Gallery -->
+        <div class="photo-wall">
+            <div class="photo-container">
+                <img src="img/10.jpg" class="photo" alt="Memory 1">
+                <!-- <div class="photo-caption"></div> -->
+            </div>
+            <div class="photo-container">
+                <img src="img/11.jpg" class="photo" alt="Memory 2">
+                <!-- <div class="photo-caption">Crazy Adventures</div> -->
+            </div>
+            <div class="photo-container">
+                <img src="img/90.jpg" class="photo" alt="Memory 3">
+                <!-- <div class="photo-caption">Unbreakable Bond</div> -->
+            </div>
+        </div>
+        
+        <!-- Confetti Animation -->
+        <div id="confetti"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
